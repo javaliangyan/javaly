@@ -2,19 +2,23 @@ package com.offcn.bean;
 
 import java.io.IOException;
 
+
+
+
+
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class AppStart {
 	
 	//++++++++++++++++++++++++++
-
+//‰Ω†‰∏™‰∫åÂÇªÂ≠ê
 	
 	public static void main(String[] args) {
 		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 
 		context.start();
 		
-		//»√÷˜œﬂ≥Ã◊Ë»˚
+		//√à√É√ñ√∑√è√ü¬≥√å√ó√®√à√ª
 		try {
 			System.in.read();
 		} catch (IOException e) {
